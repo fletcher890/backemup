@@ -1,13 +1,17 @@
+#!/usr/bin/env ruby
+
 =begin
 
   * Name: Backemup
   * Description: The script loops through all the websites on the server. It creates a sql file and the zips everything up and pushes it to amazon s3 cloud storgage.
-  * Author: Simon Fletcher & Jack Cutting
+  * Author: Simon Fletcher & Jack Cutting on behalf of Logic Design and Consultancy LTD
   * Date: 20/03/2014
+  * Copyright (c) 2014 Logic Design and Consultancy LTD
+
+   Permission is hereby granted, to any person that wishes 
+   to review the code, but they cannot use it or change it in any way.
 
 =end
-
-#!/usr/bin/env ruby
 
 require "fileutils"
 require "digest/sha1"
